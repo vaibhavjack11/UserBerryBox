@@ -20,13 +20,13 @@ class MainPageContainer extends React.Component {
 
 
 <Router>
-      <div className="">
+   
 
          <Route exact path="/" component={Tab} />
          <Route path="/home" component={Home} />
          {/* <Route path="/home" component={Home} /> */}
 
-      </div>
+      
       
    </Router>
         {/* <Home
